@@ -1,0 +1,32 @@
+export const siteConfig = {
+  name: "Ashish Bhagat - Relationship Manager",
+  authorName: "Ashish Bhagat",
+  username: "ashishbhagat",
+  description:
+    "Ashish Bhagat - Relationship Manager at Niva Bupa Health Insurance. I build and maintain client relationships, provide personalized support, and ensure customer satisfaction with insurance products while staying current on industry trends. 5+ years of experience across insurance, banking, and customer service.",
+  url: "https://ashishbhagat.com",
+  links: {
+    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
+  },
+  ogImage: "/og-image.png",
+  iconIco: "/favicon.ico",
+  logoIcon: "/logo.png",
+  keywords: [
+    "Ashish Bhagat",
+    "Relationship Manager",
+    "Niva Bupa",
+    "Niva Bupa Health Insurance",
+    "Bancassurance",
+    "Insurance",
+    "Health Insurance",
+    "Banking",
+    "Customer Service",
+    "Sales",
+    "Business Development",
+    "Account Management",
+    "Regulatory Compliance",
+    "Rudrapur",
+    "Uttarakhand",
+    "India",
+  ],
+};

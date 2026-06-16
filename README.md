@@ -1,27 +1,34 @@
 # ashishbhagat.com
 
-Personal portfolio site for **Ashish Bhagat** — IT Analyst & Systems Administrator.
+Personal site for **Ashish Bhagat**, a Relationship Manager at Niva Bupa Health Insurance with 5+ years across insurance, banking, and customer service — showcasing his experience managing client relationships, a cluster of Axis Bank bancassurance branches, branch performance, and business growth.
 
-Static site (HTML/CSS/JS), no build step. Hosted on GitHub Pages.
+Live site: [https://ashishbhagat.com](https://ashishbhagat.com)
 
-## Files
-- `index.html` — page content
-- `styles.css` — styling (dark, responsive theme)
-- `main.js` — mobile nav + footer year
-- `CNAME` — custom domain (ashishbhagat.com)
+## Tech Stack
 
-## Run locally
-Open `index.html` in a browser, or serve it:
+- [Next.js 16](https://nextjs.org/) with Turbopack
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
 
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
+## Running Locally
 
-## Deploy (GitHub Pages)
-1. Push to the GitHub repo.
-2. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, pick your branch (`main`) and `/ (root)`.
-3. Once the custom domain is set up in DNS, the site serves at https://ashishbhagat.com
+1. Install dependencies:
 
-## Customize
-Edit the email, LinkedIn link, and any role/company details directly in `index.html`.
+   ```bash
+   npm install
+   ```
+
+2. Copy `.env.copy` to `.env` and fill in the required values.
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Acknowledgements
+
+Built on the [minimal-next-portfolio](https://github.com/namanbarkiya/minimal-next-portfolio) template by [Naman Barkiya](https://github.com/namanbarkiya), used under the [MIT License](LICENSE).
